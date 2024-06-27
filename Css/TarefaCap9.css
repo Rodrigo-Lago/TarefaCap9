@@ -3,19 +3,41 @@
     padding: 0;
     box-sizing: border;
 font-family: 'Poppins', sans-serif;
-background-color:blue ;
+}
+
+html{
+    background-image: url(../Imagens/Fundo_azul_estilizado.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
 .image-container {
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    position: fixed;
+    margin-top: 10vh;
 }
 
 .image-container img {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
+}
+
+.btn {
+    background-color: orange;
+    color: blue;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: orange;
+}
+
+.tamanho {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    padding-top: 10%;
 }
